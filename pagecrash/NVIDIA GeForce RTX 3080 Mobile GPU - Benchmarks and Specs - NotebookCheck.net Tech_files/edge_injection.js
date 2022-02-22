@@ -93,7 +93,7 @@
       'visibleElements': countVisible(body.querySelectorAll('*')),
       'visiblePPRE': countVisible(body.querySelectorAll('p,pre')),
     }
-    console.log(features);
+    console.log("retrieveFeatures");
     return features;
   }
 
